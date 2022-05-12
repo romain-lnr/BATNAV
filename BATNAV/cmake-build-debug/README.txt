@@ -1,0 +1,1 @@
+Un nom de joueur, "invite", est créé pour le début du programme, veuillez vous référer à l'aide du jeu pour les différentes particularitées.

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/romai/Romain/CPNV$ DATA/GitHub/BATNAV/BATNAV/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/romai/Romain/GitHub$ DATA/BATNAV/BATNAV/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target BATNAV
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/romai/Romain/CPNV$ DATA/GitHub/BATNAV/BATNAV/cma
 
 build cmake_object_order_depends_target_BATNAV: phony || CMakeFiles/BATNAV.dir
 
-build CMakeFiles/BATNAV.dir/main.c.obj: C_COMPILER__BATNAV_Debug C$:/Users/romai/Romain/CPNV$ DATA/GitHub/BATNAV/BATNAV/main.c || cmake_object_order_depends_target_BATNAV
+build CMakeFiles/BATNAV.dir/main.c.obj: C_COMPILER__BATNAV_Debug C$:/Users/romai/Romain/GitHub$ DATA/BATNAV/BATNAV/main.c || cmake_object_order_depends_target_BATNAV
   DEP_FILE = CMakeFiles\BATNAV.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
   OBJECT_DIR = CMakeFiles\BATNAV.dir
@@ -81,7 +81,7 @@ build BATNAV.exe: C_EXECUTABLE_LINKER__BATNAV_Debug CMakeFiles/BATNAV.dir/main.c
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\romai\Romain\CPNV DATA\GitHub\BATNAV\BATNAV\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\romai\Romain\GitHub DATA\BATNAV\BATNAV\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\romai\Romain\CPNV DATA\GitHub\BATNAV\BATNAV\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\romai\Romain\CPNV DATA\GitHub\BATNAV\BATNAV" -B"C:\Users\romai\Romain\CPNV DATA\GitHub\BATNAV\BATNAV\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\romai\Romain\GitHub DATA\BATNAV\BATNAV\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\romai\Romain\GitHub DATA\BATNAV\BATNAV" -B"C:\Users\romai\Romain\GitHub DATA\BATNAV\BATNAV\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build BATNAV: phony BATNAV.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/romai/Romain/CPNV DATA/GitHub/BATNAV/BATNAV/cmake-build-debug
+# Folder: C:/Users/romai/Romain/GitHub DATA/BATNAV/BATNAV/cmake-build-debug
 
 build all: phony BATNAV.exe
 

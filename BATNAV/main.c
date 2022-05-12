@@ -433,7 +433,8 @@ int main(void) { //Fonction principale, fais le regroupement de toutes les fonct
    //Gestion des accents dans la console
     SetConsoleOutputCP(65001);
     printf("\n\n                                          /* Le nom choisit devra être inscrit\n");
-    printf("                                          dans le fichier des utilisateurs */\n");
+    printf("                                          dans le fichier des utilisateurs\n");
+    printf("                                        annexe -> cmake-build-debug/logs/users */\n");
     //Gestion des accents dans la console
     SetConsoleOutputCP(437);
     printf("\n\n                                         %c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",DTLC,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DTRC);
@@ -443,7 +444,7 @@ int main(void) { //Fonction principale, fais le regroupement de toutes les fonct
     printf("\n                                         %c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",DBLC,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DHSB,DBRC);
     //Gestion des accents dans la console
     SetConsoleOutputCP(65001);
-    printf("\n                                         Entrez votre nom :");
+    printf("\n                                         Entrez le nom du joueur : ");
     scanf("%s",&username);
     if (Authentify(username) == 0) //Si les conditions de la fonction 'Validity' n'est pas respectée...
     {
